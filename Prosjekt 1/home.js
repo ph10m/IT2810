@@ -88,7 +88,7 @@ function locationHashChanged() {
 }
 
 function startUp() {
-    let doge = document.getElementById("cover_img");
+    let doge = document.getElementById("doge_head");
     let footer = document.getElementsByClassName("footer")[0];
     let header = document.getElementsByClassName("header")[0];
     homecontent.style.opacity = 1;

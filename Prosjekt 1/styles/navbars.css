@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    flex-wrap: nowrap;
     flex-basis: auto;
     flex: 1 1 auto;
     flex-direction: row;
@@ -26,7 +27,18 @@
     text-decoration: none;
     color: inherit;
 }
-
+#doge_head {
+    float: right;
+    margin-right: 10%;
+    margin-left: auto;
+    max-height: 40px;
+    width: auto;
+    transition: all 0.5s ease-in-out;
+    transition-property: transform;
+}
+#doge_head:hover {
+    transform: rotate(360deg);
+}
 .footer {
     position: fixed;
     z-index: 500; /* always show header above content */

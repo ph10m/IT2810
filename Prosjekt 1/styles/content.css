@@ -29,23 +29,6 @@
     display: none;
     opacity: 0;
 }
-#cover_img {
-    z-index: 1000;
-    left: auto;
-    right: 5%;
-    top: 5px;
-    background-position: 0;
-    opacity = 1;
-    position: fixed;
-    margin: auto;
-    max-height: 40px;
-    max-width: auto;
-    transition: all 0.5s ease-in-out;
-    transition-property: transform;
-}
-#cover_img:hover {
-    transform: rotate(360deg);
-}
 
 intro {
     font-size: 1.2rem;
