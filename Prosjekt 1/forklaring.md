@@ -18,3 +18,4 @@ Dokumentasjon:
 5) Ingen varsler eller feilmeldinger i html checker.
 6) CSS er samlet i /styles, med en hoved-fil, style.css, som importerer alle andre. Dette for å unngå å måtte importere en haug med filer i .html-fila.
 
+Ellers finnes kommentarer litt underveis i koden. Fungerer best i Chrome pga. fancy regnbue-tekst CSS som jeg ikke fikk til å fungere i andre browsere som ikke støtter webkit skikkelig.
