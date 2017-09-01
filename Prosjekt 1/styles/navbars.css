@@ -28,6 +28,7 @@
     color: inherit;
 }
 #doge_head {
+    z-index: 1000;
     float: right;
     margin-right: 10%;
     margin-left: auto;
