@@ -65,14 +65,14 @@ var othercontent = document.getElementById("other_content");
 function home(){
     show_quote("go home plz");
     othercontent.style.display = "none";
-    homecontent.style.display = "inline";
+    homecontent.style.display = "flex";
     homecontent.style.opacity = 1;
     homecontent.style.animation = "fadein 0.5s";
 }
 
 function info(){
     show_quote("useless page");
-    othercontent.style.display = "inline";
+    othercontent.style.display = "flex";
     homecontent.style.display = "none";
     othercontent.style.opacity = 1;
     othercontent.style.animation = "fadein 0.5s";
@@ -94,7 +94,7 @@ function startUp() {
     homecontent.style.opacity = 1;
     window.addEventListener("scroll", function() {
         doge.style.transform = "rotate("+window.pageYOffset+"deg)";
-        header.style.opacity = 1 - window.pageYOffset/500;
+        header.style.opacity = 1.5 - window.pageYOffset/500
         // doge.style.opacity = 1 - window.pageYOffset/500; // magic number, based on pixels
     });
     locationHashChanged();

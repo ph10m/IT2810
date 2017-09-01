@@ -9,7 +9,7 @@
     position: relative;
     padding-top: 150px;
     margin-bottom: 100px;
-    max-width: 50%;
+    max-width: 40%;
     margin: auto;
     animation: fadein 2.5s;
 }
@@ -22,11 +22,15 @@
     margin: 0 auto;
 }
 #home_content{
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     opacity: 0;
 }
 #other_content{
     display: none;
+    flex-direction: column;
+    justify-content: center;
     opacity: 0;
 }
 
