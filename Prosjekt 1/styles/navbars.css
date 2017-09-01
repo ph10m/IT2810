@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    flex-basis: auto;
+    flex: 1 1 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: fixed;
+    z-index: 500; /* always show header above content */
+    background: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    opacity: 1;
+}
+.header:hover {
+    opacity: 1;
+}
+.header_item {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.header a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer {
+    position: fixed;
+    z-index: 500; /* always show header above content */
+    background: black;
+    color: white;
+    width: 100%;
+    bottom: 0%;
+    height: 50px;
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+    <link rel="shortcut icon" href="assets/doge.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body onload="startUp()">
+        <div class="header">
+            <a href="#home">
+                <div class="header_item">Home</div>
+            </a>
+            <a href="#info">
+                <div class="header_item">Info</div>
+            </a>
+            <div onclick="toggleDoge()" class="header_item">Need higher res pic thx</div>
+        </div>
+
+        <img id="cover_img" src="assets/tinydoge.png"/>
+
+        <div class="content">
+            <div id="bigdoge" onclick="toggleDoge()">
+                <span class="clickremove">Click to kill doge</span>
+                <img src="assets/bigdoge.jpg"></img>
+            </div>
+            <div class="wow" id="comic"></div>
+        <div id="home_content">
+            <div id="intro">
+                <strong>Doge</strong> (often pronounced /ˈdoʊʒ/ DOHZH or /ˈdoʊɡ/ DOHG) is an Internet meme that became popular in 2013.
+                The meme typically consists of a picture of a Shiba Inu accompanied by multicolored text in <span id="comic">Comic</span><span id="comic">Sans</span> font in the foreground.
+                The text, representing a kind of internal monologue, is deliberately written in a form of broken English.
+            </div>
+            <br>
+
+            <button class="readMoar" type="button" onclick="readMoar()" id="comic">moar info plz?</button>
+
+            <div class="moarText">
+                <p>The meme is based on a 2010 photograph, and became popular in late 2013, being named as Know Your Meme's "top meme" of that year.</p>
+                <p>A cryptocurrency based on Doge, the Dogecoin, was launched in December 2013, and the Shiba Inu has been featured on Josh Wise's NASCAR car as part of a sponsorship deal.</p>
+                <p>Kabosu (Japanese: かぼす), the female Shiba Inu featured in the original meme, was a pedigree puppy who was sent to an animal shelter when her puppy mill shut down. She was adopted in 2008 by Japanese kindergarten teacher Atsuko Satō, and named after the citrus fruit Kabosu because Sato thought she had a round face like the fruit.[4] Another Shiba Inu featured in the meme is Suki, a female belonging to photographer Jonathan Fleming from San Francisco. His wife had accidentally put a scarf in the wash, making it shrink. He took a photograph of Suki wearing the scarf outside on a cold night in February 2010.</p>
+                <br>
+                <p style="font-size: 0.8rem; text-align: center;">Shamelessly stolen from Wikipedia</p>
+                <h2>doge is life</h2>
+                <br>
+            </div>
+        </div>
+            <div id="other_content">
+                <p>This is a simple test page, emulating a single-page web app with pure html and js. Sites load from the hash in the url. Try changing it to #home</p>
+            </div>
+            <br>
+        </div>
+        <div class="footer">
+            <div id="dogecoin"></div>
+            <div style="color: gray;">© Tollef Jørgensen, IT2810 Prosjekt 1, 2017</div>
+        </div>
+        <script src="home.js" async></script>
+    </body>
+</html>
