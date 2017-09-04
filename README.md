@@ -1,3 +1,2 @@
-# WebutviklingIT2810
-### Web development course, IT2810, fall 2017.
-[Project 1](/Prosjekt%201)
+# WebutviklingIT2810, høst 2017
+[Project 1](/WebutviklingIT2810/Prosjekt%201)
