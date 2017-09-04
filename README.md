@@ -1,4 +1,4 @@
-# WebutviklingIT2810, høst 2017
+# Web development (IT2810), Fall 2017
 
 ## Project 1 - Doge
 #### A website written in HTML, CSS and JS. No frameworks.
