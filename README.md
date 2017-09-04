@@ -1,6 +1,4 @@
-# Web development (IT2810), Fall 2017
-
-## Project 1 - Doge
+# Project 1 - Doge
 #### A website written in HTML, CSS and JS. No frameworks.
 * [Website demo](/IT2810/project1/home.html)
 * [Source code](https://github.com/ph10m/IT2810/tree/master/project1){:target="_blank"}
