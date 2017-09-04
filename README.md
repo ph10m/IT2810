@@ -3,4 +3,4 @@
 ## Project 1 - Doge
 #### A website written in HTML, CSS and JS. No frameworks.
 * [Website demo](/IT2810/project1/home.html)
-* [Source code](https://github.com/ph10m/IT2810/tree/master/project1)
+* [Source code](https://github.com/ph10m/IT2810/tree/master/project1){:target="_blank"}
