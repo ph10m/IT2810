@@ -1,2 +1,2 @@
 # WebutviklingIT2810, høst 2017
-[Project 1](/WebutviklingIT2810/Prosjekt%201)
+[Project 1, Doge](/IT2810/project1/home.html)
