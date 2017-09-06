@@ -3,3 +3,5 @@
 *.swp
 /Testing
 /delivery_zips
+project2/node_modules
+*lock.json
