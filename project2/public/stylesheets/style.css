@@ -8,6 +8,15 @@ h1 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: darkgray;
+}
+
 .nav {
     padding: 50px;
     display: flex;
@@ -20,8 +29,9 @@ h1 {
 }
 
 .nav_item {
+    margin: 0 auto;
     font-family: "Amatic SC", sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     list-style-type: none;
 }
 
@@ -36,13 +46,16 @@ h1 {
 
 .post {
     display: flex;
-    justify-content: space-around;
     padding-bottom: 50px;
+}
+
+.picture {
+    padding: 20px;
 }
 
 .picture img {
     border-radius: 50%;
-    width: 80%;
+    width: 20em;
 }
 
 .text {
