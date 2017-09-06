@@ -15,5 +15,6 @@ new_route('waffle');
 new_route('cake');
 new_route('cookie');
 new_route('candy');
+new_route('about');
 
 module.exports = router;
