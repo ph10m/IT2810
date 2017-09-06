@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.nav {
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post {
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture {
+    border-radius: 50%;
+}
+
+.text {
+    font-family: Kreon, sans-serif;
+}
+
+.text h3 {
+    font-family: "Amatic SC", sans-serif;;
+}
