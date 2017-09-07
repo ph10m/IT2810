@@ -102,7 +102,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 50em) {
     .post {
         flex-direction: column;
         margin-right: 0;
