@@ -84,7 +84,7 @@ a:hover {
     );
 }
 
-@media screen and (max-width: 70em) {
+@media screen and (max-width: 1200px) {
     .post {
         margin-right: 5%;
     }
@@ -102,7 +102,7 @@ a:hover {
     }
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 1025px) {
     .post {
         flex-direction: column;
         margin-right: 0;
@@ -133,11 +133,14 @@ a:hover {
         background-color: white;
         right: 0;
         bottom: 0;
-        top: 95%;
+        top: 90%;
+    }
+    .nav_item {
+        font-size: 3rem;
     }
 
     .fadebar {
-        bottom: 5%;
+        bottom: 10%;
         height: 10%;
     }
 }
