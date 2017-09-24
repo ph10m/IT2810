@@ -1,10 +1,12 @@
+@import url("buttons.css");
+
 body {
     margin: 0;
+    font-family: "Amatic SC", sans-serif;
 }
 
 h1 {
-    font-family: "Amatic SC", sans-serif;
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
 }
 
@@ -26,11 +28,12 @@ a:hover {
     z-index: 10;
     top: 10px;
     right: 5%;
+
+    transition: all 0.5s ease-in;
 }
 
 .nav_item {
     margin: 0 auto;
-    font-family: "Amatic SC", sans-serif;
     font-size: 2rem;
     list-style-type: none;
 }
@@ -40,34 +43,45 @@ a:hover {
     justify-content: center;
     flex-direction: column;
     max-width: 100%;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 20%;
+    margin-left: 5%;
+	margin-bottom: 10em;
+
+    transition: all 0.5s linear;
 }
 
 .post {
     display: flex;
-    padding-bottom: 50px;
+	padding: 3em 0
 }
-
-.picture {
-    padding: 20px;
+.howto {
+	display: flex;
+	padding: 3em 0;
 }
 
 .picture img {
     border-radius: 50%;
     width: 20em;
+    transition: all 0.5s ease-in-out;
 }
 
 .text {
     font-family: Kreon, sans-serif;
     font-size: 1.5rem;
+	margin-top: 1em;
+	margin-left: 2em;
 }
 
 .text h3 {
     font-family: "Amatic SC", sans-serif;;
 }
 
+#doclink {
+	color: red;
+}
+
 .fadebar {
+	pointer-events: none;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -79,21 +93,58 @@ a:hover {
     );
 }
 
-@media screen and (max-width: 64.063em) {
+.instructions {
+    padding-left: 3em;
+}
+
+.ingredients h2{
+	font-size: 2em;
+}
+.ingredient_list {
+	font-family: 'Kreon', serif;
+	font-size: 1.25em;
+}
+.instructions h2{
+	font-size: 2em;
+}
+.instruction_list {
+	font-family: 'Kreon', serif;
+	font-size: 1.25em;
+    padding: 1em;
+}
+
+@media screen and (max-width: 1225px) {
+    .post {
+        margin-right: 5%;
+    }
+    .howto {
+        margin-right: 5%;
+    }
     .content {
         margin-left: 5%;
         margin-right: 15%;
     }
-
+    .text {
+        margin-left: 0;
+    }
     .nav {
         top: 5px;
         right: 5px;
     }
+    .picture img {
+        border-radius: 25%;
+        width: 10em;
+    }
 }
 
-@media screen and (max-width: 40.063em) {
+@media screen and (max-width: 1025px) {
     .post {
         flex-direction: column;
+        margin-right: 0;
+    }
+    .howto {
+        flex-direction: column;
+        margin-right: 0;
     }
 
     .content {
@@ -101,10 +152,13 @@ a:hover {
         margin-left: 5%;
     }
 
+    .text {
+        margin-left: 0;
+    }
+
     .picture {
         overflow: hidden;
-        width: 100%;
-        height: 10em;
+        height: 18em;
     }
 
     .picture img {
@@ -122,11 +176,21 @@ a:hover {
         background-color: white;
         right: 0;
         bottom: 0;
-        top: 95%;
+        top: 93%;
+    }
+    .nav_item {
+        font-size: 3rem;
     }
 
     .fadebar {
-        bottom: 5%;
+        bottom: 7%;
         height: 10%;
     }
+    .instructions {
+        padding-left: 0;
+    }
+    #portions_view {
+        width: 4em;
+    }
+
 }
